@@ -330,37 +330,29 @@ npm run dev
 
 ### Debugging Tools
 
-#### VS Code Configuration
+#### VS Code Configuration (Included!)
 
-Create `.vscode/launch.json`:
+**Good news!** The repository now includes comprehensive VS Code configuration out of the box:
 
-```json
-{
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "FastAPI",
-      "type": "python",
-      "request": "launch",
-      "program": "api/main.py",
-      "console": "integratedTerminal",
-      "cwd": "${workspaceFolder}",
-      "env": {
-        "PYTHONPATH": "${workspaceFolder}"
-      }
-    },
-    {
-      "name": "React Frontend",
-      "type": "node",
-      "request": "launch",
-      "cwd": "${workspaceFolder}/frontend",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
-      "console": "integratedTerminal"
-    }
-  ]
-}
+- **`.vscode/settings.json`** - Python, TypeScript, and editor settings
+- **`.vscode/launch.json`** - Debug configurations for API, Worker, Frontend
+- **`.vscode/tasks.json`** - Quick tasks for common development operations
+- **`.vscode/extensions.json`** - Recommended extensions
+- **`open-notebook.code-workspace`** - Multi-root workspace file
+
+**To get started:**
+
+```bash
+# Open as workspace (recommended)
+code open-notebook.code-workspace
+
+# Or open as folder
+code .
 ```
+
+When prompted, install the recommended extensions for the best experience.
+
+**See the complete guide:** [`.vscode/README.md`](../../.vscode/README.md) for detailed setup instructions, debugging tips, and keyboard shortcuts.
 
 #### Python Debugging
 

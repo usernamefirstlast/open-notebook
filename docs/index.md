@@ -11,6 +11,7 @@ Everything you need to know to begin your Open Notebook journey.
 - **[Introduction](getting-started/introduction.md)** - What is Open Notebook and why use it?
 - **[Quick Start](getting-started/quick-start.md)** - Get running in 5 minutes
 - **[Installation](getting-started/installation.md)** - Comprehensive setup guide
+- **[VS Code Setup](getting-started/vscode-setup.md)** - 💻 Clone and load to VS Code for development
 - **[Your First Notebook](getting-started/first-notebook.md)** - Step-by-step tutorial
 
 ---

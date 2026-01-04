@@ -51,20 +51,23 @@ By participating in this project, you are expected to uphold our Code of Conduct
 Once your issue is assigned:
 
 1. **Fork the repo** and create your branch from `main`
-2. **Understand our vision and principles** - Read [DESIGN_PRINCIPLES.md](DESIGN_PRINCIPLES.md) to understand what guides our decisions
-3. **Follow our architecture** - Read [docs/development/architecture.md](docs/development/architecture.md) to understand the project structure
-4. **Write quality code**:
+2. **Set up your development environment:**
+   - **VS Code users:** Open `open-notebook.code-workspace` for pre-configured settings, debugging, and tasks. See [.vscode/README.md](.vscode/README.md)
+   - **Other editors:** Follow [docs/deployment/development.md](docs/deployment/development.md)
+3. **Understand our vision and principles** - Read [DESIGN_PRINCIPLES.md](DESIGN_PRINCIPLES.md) to understand what guides our decisions
+4. **Follow our architecture** - Read [docs/development/architecture.md](docs/development/architecture.md) to understand the project structure
+5. **Write quality code**:
    - Follow PEP 8 for Python
    - Use TypeScript best practices for frontend
    - Add type hints and proper error handling
    - Write docstrings for functions and classes
-4. **Test your changes**:
+6. **Test your changes**:
    - Add tests for new features
    - Ensure existing tests pass: `uv run pytest`
    - Run linter: `make ruff` or `ruff check . --fix`
    - Run type checker: `make lint` or `uv run python -m mypy .`
-5. **Update documentation** - If you changed functionality, update the relevant docs in `/docs`
-6. **Create your PR**:
+7. **Update documentation** - If you changed functionality, update the relevant docs in `/docs`
+8. **Create your PR**:
    - Reference the issue number (e.g., "Fixes #123")
    - Describe what changed and why
    - Include screenshots for UI changes

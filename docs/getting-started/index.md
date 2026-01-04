@@ -14,6 +14,16 @@ The fastest path from zero to running Open Notebook. Clear steps, no fluff.
 
 ---
 
+## 💻 **Setting Up for Development?**
+
+**[VS Code Setup Guide](vscode-setup.md)** ← **For developers!**
+
+Quick guide to clone and load Open Notebook in VS Code with pre-configured settings.
+
+**Perfect for:** Contributors, customization, learning the codebase
+
+---
+
 ## 📚 **Want to Learn More First?**
 
 ### **[Introduction](introduction.md)**
@@ -81,6 +91,7 @@ Step-by-step tutorial once Open Notebook is running.
 | I want to... | Start here |
 |-------------|------------|
 | **Try Open Notebook now** | [5-Minute Setup](5-minute-setup.md) |
+| **Set up for development in VS Code** | [VS Code Setup](vscode-setup.md) |
 | **Deploy on a remote server** | [5-Minute Setup](5-minute-setup.md) → Remote section |
 | **Understand before installing** | [Introduction](introduction.md) |
 | **Deploy for production use** | [Installation Guide](installation.md) |

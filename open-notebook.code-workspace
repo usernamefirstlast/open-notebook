@@ -1,0 +1,117 @@
+{
+  "folders": [
+    {
+      "name": "🏠 Open Notebook (Root)",
+      "path": "."
+    },
+    {
+      "name": "🎨 Frontend (Next.js)",
+      "path": "./frontend"
+    },
+    {
+      "name": "🔧 API (FastAPI)",
+      "path": "./api"
+    },
+    {
+      "name": "📦 Core (open_notebook)",
+      "path": "./open_notebook"
+    },
+    {
+      "name": "📝 Documentation",
+      "path": "./docs"
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "${workspaceFolder:🏠 Open Notebook (Root)}/.venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.extraPaths": [
+      "${workspaceFolder:🏠 Open Notebook (Root)}"
+    ],
+    "eslint.workingDirectories": [
+      "${workspaceFolder:🎨 Frontend (Next.js)}"
+    ],
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/.venv": true,
+      "**/dist": true,
+      "**/__pycache__": true,
+      "**/.pytest_cache": true,
+      "**/.mypy_cache": true,
+      "**/.ruff_cache": true
+    },
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/**": true,
+      "**/.venv/**": true,
+      "**/dist/**": true,
+      "**/__pycache__/**": true
+    }
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "🚀 FastAPI: Run API Server",
+        "type": "debugpy",
+        "request": "launch",
+        "module": "uvicorn",
+        "args": [
+          "api.main:app",
+          "--reload",
+          "--host",
+          "0.0.0.0",
+          "--port",
+          "5055"
+        ],
+        "cwd": "${workspaceFolder:🏠 Open Notebook (Root)}",
+        "console": "integratedTerminal",
+        "justMyCode": false,
+        "env": {
+          "PYTHONPATH": "${workspaceFolder:🏠 Open Notebook (Root)}"
+        }
+      }
+    ]
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "🚀 Start All Services",
+        "type": "shell",
+        "command": "make start-all",
+        "options": {
+          "cwd": "${workspaceFolder:🏠 Open Notebook (Root)}"
+        },
+        "problemMatcher": [],
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": true,
+          "panel": "shared"
+        }
+      },
+      {
+        "label": "🛑 Stop All Services",
+        "type": "shell",
+        "command": "make stop-all",
+        "options": {
+          "cwd": "${workspaceFolder:🏠 Open Notebook (Root)}"
+        },
+        "problemMatcher": []
+      }
+    ]
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "charliermarsh.ruff",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "bradlc.vscode-tailwindcss",
+      "ms-azuretools.vscode-docker",
+      "eamodio.gitlens"
+    ]
+  }
+}

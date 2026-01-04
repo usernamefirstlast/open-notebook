@@ -276,11 +276,19 @@ For development or customization:
 ```bash
 git clone https://github.com/lfnovo/open-notebook
 cd open-notebook
+
+# Option 1: Open in VS Code with pre-configured workspace
+code open-notebook.code-workspace
+
+# Option 2: Start services directly
 make start-all
 ```
 
+**VS Code Users:** The repository includes complete VS Code configuration! See [`.vscode/README.md`](.vscode/README.md) for setup guide.
+
 ### 📖 Need Help?
 - **🤖 AI Installation Assistant**: We have a [CustomGPT built to help you install Open Notebook](https://chatgpt.com/g/g-68776e2765b48191bd1bae3f30212631-open-notebook-installation-assistant) - it will guide you through each step!
+- **💻 VS Code Setup**: Check the [VS Code Setup Guide](.vscode/README.md) for development configuration
 - **New to Open Notebook?** Start with our [Getting Started Guide](docs/getting-started/index.md)
 - **Need installation help?** Check our [Installation Guide](docs/getting-started/installation.md)
 - **Want to see it in action?** Try our [Quick Start Tutorial](docs/getting-started/quick-start.md)
