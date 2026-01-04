@@ -75,8 +75,8 @@ venv.bak/
 # PyCharm
 .idea/
 
-# VS Code
-.vscode/
+# VS Code - Keep workspace settings, ignore user-specific settings
+# .vscode/
 
 # Spyder project settings
 .spyderproject
