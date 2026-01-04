@@ -61,7 +61,7 @@ When you open the project, VS Code will prompt you to install recommended extens
 The `.vscode/` directory includes pre-configured settings:
 
 ### Settings (`settings.json`)
-- ✅ Python interpreter pointing to `.venv/`
+- ✅ Python interpreter pointing to `.venv/` (Unix/Mac: `.venv/bin/python`, Windows: `.venv/Scripts/python.exe` - VS Code handles this automatically)
 - ✅ Auto-formatting on save (Ruff for Python, Prettier for JS/TS)
 - ✅ Import sorting and organization
 - ✅ Proper file associations (Jinja, .env files)
