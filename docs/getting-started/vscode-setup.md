@@ -136,9 +136,9 @@ After starting services:
 
 ### Read Documentation
 
-- **[Getting Started Guide](docs/getting-started/index.md)** - Learn Open Notebook basics
-- **[Development Guide](docs/deployment/development.md)** - Development workflow
-- **[Contributing Guide](CONTRIBUTING.md)** - How to contribute
+- **[Getting Started Guide](index.md)** - Learn Open Notebook basics
+- **[Development Guide](../deployment/development.md)** - Development workflow
+- **[Contributing Guide](../../CONTRIBUTING.md)** - How to contribute
 
 ### Try It Out
 
@@ -194,8 +194,8 @@ make start-all
 
 ### Need more help?
 
-- **Complete VS Code guide:** [.vscode/README.md](.vscode/README.md)
-- **Development guide:** [docs/deployment/development.md](docs/deployment/development.md)
+- **Complete VS Code guide:** [../../.vscode/README.md](../../.vscode/README.md)
+- **Development guide:** [../deployment/development.md](../deployment/development.md)
 - **Discord:** [discord.gg/37XJPXfz2w](https://discord.gg/37XJPXfz2w)
 - **GitHub Issues:** [github.com/lfnovo/open-notebook/issues](https://github.com/lfnovo/open-notebook/issues)
 
@@ -211,7 +211,7 @@ make start-all
 
 ### Keyboard Shortcuts Cheat Sheet
 
-See [.vscode/README.md](.vscode/README.md#-keyboard-shortcuts-cheat-sheet) for complete list.
+See [../../.vscode/README.md](../../.vscode/README.md#keyboard-shortcuts-cheat-sheet) for complete list.
 
 ### Video Tutorials
 
@@ -266,6 +266,6 @@ Press `Ctrl+Shift+D` and select:
 **You're all set! Happy coding! 🚀**
 
 For more detailed information, see:
-- [Complete VS Code Setup Guide](.vscode/README.md)
-- [Development Documentation](docs/deployment/development.md)
-- [Contributing Guidelines](CONTRIBUTING.md)
+- [Complete VS Code Setup Guide](../../.vscode/README.md)
+- [Development Documentation](../deployment/development.md)
+- [Contributing Guidelines](../../CONTRIBUTING.md)
