@@ -52,7 +52,7 @@
     "version": "0.2.0",
     "configurations": [
       {
-        "name": "🚀 Full Stack: All Services",
+        "name": "🚀 FastAPI: Run API Server",
         "type": "debugpy",
         "request": "launch",
         "module": "uvicorn",
@@ -65,7 +65,11 @@
           "5055"
         ],
         "cwd": "${workspaceFolder:🏠 Open Notebook (Root)}",
-        "console": "integratedTerminal"
+        "console": "integratedTerminal",
+        "justMyCode": false,
+        "env": {
+          "PYTHONPATH": "${workspaceFolder:🏠 Open Notebook (Root)}"
+        }
       }
     ]
   },
